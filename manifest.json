@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "BVK — IPS QR",
+  "version": "1.0.0",
+  "description": "Generate an IPS QR code for the current BVK payment slip.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "BVK — IPS QR",
+    "default_popup": "popup.html"
+  }
+}

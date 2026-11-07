@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>BVK — IPS QR</title>
+  <style>
+    body { margin: 0; padding: 16px; width: 320px; background: white; color: #172b3a; font: 14px system-ui; text-align: center; }
+    #qr svg { display: block; width: 320px; height: 320px; }
+    p { margin: 8px 0 0; }
+    #status { line-height: 1.5; }
+    [hidden] { display: none; }
+  </style>
+</head>
+<body>
+  <div id="qr"></div>
+  <p id="caption" hidden>NBS IPS QR</p>
+  <p id="status" role="status">Loading…</p>
+  <script src="vendor/qrcode.js"></script>
+  <script src="vendor/qrcode_UTF8.js"></script>
+  <script src="payment.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
