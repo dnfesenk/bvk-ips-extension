@@ -36,3 +36,7 @@ The paper payment code `189` is converted to its cashless counterpart `289` in t
 - [NBS payment recommendations](https://ips.nbs.rs/PDF/pdfPreporukeNovoLat.pdf)
 
 Bundled library: qrcode-generator 1.4.4 by Kazuhiko Arase, licensed under MIT; see the notice in `vendor/qrcode.js`. UTF-8 support is provided by `vendor/qrcode_UTF8.js`.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Bundled dependencies retain their original copyright notices.
